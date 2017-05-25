@@ -1,0 +1,60 @@
+/*
+Theme Name: SmartScreen Child
+Description: Child theme for the Smartscreen
+Author: Your name here
+Template: smartscreen
+*/
+
+@import url("../smartscreen/style.css");
+body {
+    background-color: #000 !important;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .social-in-homepage {
+        right: -2px;
+    }
+    .social-bookmarks.social-in-homepage ul li {
+        float: none;
+        display: block;
+        overflow: hidden;
+    }
+    #main {
+        width: 400px !important;
+        padding: 0px 35px;
+        border-top: 0px !important;
+    }
+    #entries .page-title {
+        padding-bottom: 15px;
+        padding-right: 15px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        color: #444;
+        position: relative;
+        font: 100 18px/24px Oswald,Helvetica,Arial,sans-serif;
+        border-bottom: 0px !important;
+    }
+    #entries .post-item {
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        overflow: hidden;
+        border-bottom: 1px solid #EEE;
+    }
+    #shutdown {display: none;}
+    #menu-wrap {
+        left: 0 !important;
+    }
+    input {
+    	font-family: Tahoma, Geneva, sans-serif;
+    	font-size: 14px;
+    	color:#666;
+    }
+}
+#main, #menu-wrap, #sidebar {
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.entry h2, #main .entry h3, #main .entry h4, #main .entry h5, #main .entry h6 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
